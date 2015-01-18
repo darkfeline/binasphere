@@ -112,7 +112,6 @@ def main():
     """Main function."""
 
     parser = argparse.ArgumentParser()
-    #parser.set_defaults(func=lambda x: parser.print_help())
     subparsers = parser.add_subparsers(title='Commands')
 
     tmp_parser = subparsers.add_parser('split')
